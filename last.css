@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+header{
+    background-color: gainsboro;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+
+    padding: 10px;
+  
+}
+
+.logo{
+    color: blue;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 5px 70px;
+    text-decoration: none;
+     text-transform: capitalize;
+}
+
+.logo:hover{
+    color: blueviolet;
+}
+
+.navigation a{
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px 40px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navigation a:hover{
+    color: blueviolet;
+}
+
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(./image/15.jpg) no-repeat;
+    /* position: relative; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main h2{
+    color: cornflowerblue;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+.main span{
+    color: blue;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+.main h3{
+    color: darksalmon;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.main-btn{
+   background-color: blue;
+   padding: 15px;
+   border-radius: 10px;
+   text-decoration: none;
+   color: white;
+   text-transform: capitalize;
+   display: flex;
+   display: inline-block;
+   /* width: 100px; */
+   text-align: center;
+   font-size: 15px;
+   /* height: 30px; */
+   transition: 0.7s ease;
+
+
+
+}
+
+.main-btn:hover{
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+
+    font-size: 30px;
+    color: wheat;  
+    margin-left: 10px;
+    /* position: absolute; */
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 40px;
+    font-weight: 40px;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba( 1 1 1 /15);
+    margin: 25px;
+    padding: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: blue;
+    font-size: 150px;
+    text-align: center;
+    margin: 10px;
+}
+.info{
+    text-align: center;
+}
+
+.info h2{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.info p{
+    color:blue;
+    font-size: 15px;
+}
+
+.projects{
+    background-color: black;
+}
+
+.projects .content{
+    margin-top: 100px;
+}
+
+.project-card{
+    background-color: #eee;
+    min-height: 15em;
+    width: 18em;
+    border: 1px solid blueviolet;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+.project-card:hover{
+   
+    transform: scale(1.1);
+}
+
+
+.project-card:hover .project-image{
+    opacity: .9;
+    filter: brightness(20%);
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info{
+    padding: 10px;
+
+}
+.project-category{
+    font-size: -10;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-title span{
+    color: chartreuse;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.more-details{
+    color: blue;
+    text-decoration: none;
+
+  
+}
+
+.more-details:hover{
+    color: red;
+}
+
+footer{
+background-color: black; 
+color: #eee;   
+display: flex;
+justify-content: space-between;
+height: 100px;
+text-align: center;
+}
+
+.footer-title{
+   
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-title span{
+    color: blue;
+   
+}
+    
+
+.social-icons{
+    padding: 30px;
+    
+}
